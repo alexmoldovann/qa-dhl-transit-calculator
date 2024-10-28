@@ -48,7 +48,7 @@ public class TransitCalculatorPage extends BasePage {
         destinationCode.sendKeys(destinationPostcode);
         scrollToElementCenter(calculateButton);
         calculateButton.click();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
     }
 
     public String getOriginError() {
